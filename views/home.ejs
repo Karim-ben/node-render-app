@@ -1,0 +1,11 @@
+
+
+<% if (fruits) { %>
+ <% fruits.forEach(fruit => { %>
+  
+    <div class="item">
+        <%= fruit.title %>
+        <p><%= fruit.description %></p>
+    </div>
+ <% }) %>
+<% } %>

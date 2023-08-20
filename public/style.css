@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  background-color: rgb(47, 47, 86);
+  display: grid;
+  place-content: center;
+}
+
+.container {
+  width: 500px;
+  background-color: white;
+  padding: 10px;
+}
+.item{
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.item p{
+    font-size: 12px;
+    display: none;
+}
+
+p.active{
+    display: block;
+}
